@@ -27,13 +27,18 @@ dog-cat-ml/
 ├── /train/train/ # Training images (Kaggle-style: cat.123.jpg, dog.456.jpg)
 ├── /test-dog-cat/ # Test images for batch prediction
 
-# Download Dataset
-Data Source: https://www.kaggle.com/c/dogs-vs-cats/data
+# 📂Download Dataset
+- **Data Source**: https://www.kaggle.com/c/dogs-vs-cats/data
 
 Place the Kaggle Dogs vs Cats dataset inside:
 /train/train/
 
 Images must be named like dog.123.jpg, cat.456.jpg.
+
+# 📂Test Dataset
+The repository supports both sample test images and an optional full test dataset to evaluate model predictions.
+
+- **Dataset** : https://www.kaggle.com/datasets/arunimabarua/test-dog-cat/settings
 
 # ➤ What it does:
 Loads and preprocesses images.
