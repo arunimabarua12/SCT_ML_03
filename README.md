@@ -25,7 +25,7 @@ Images must be named like dog.123.jpg, cat.456.jpg.
 The repository supports both sample test images and an optional full test dataset to evaluate model predictions.
 
 - **Dataset** : https://www.kaggle.com/datasets/arunimabarua/test-dog-cat/settings
--
+
  
 # 🧠 Key Features
 
