@@ -13,20 +13,6 @@ Single image prediction with confidence score.
 
 Visual performance analysis (Confusion Matrix & Classification Report).
 
-# 🧠 Key Features
-
-✅ Multi-technique feature extraction:    • HOG (Histogram of Oriented Gradients)    • LBP (Local Binary Pattern)    • Gabor filters (frequency & orientation analysis)    • Color features (RGB, HSV, LAB statistics)
-
-✅ PCA for dimensionality reduction (retains 95% variance)✅ GridSearchCV hyperparameter tuning for both SVM and RF✅ Ensemble Learning using soft voting✅ Confusion matrix & classification reports✅ Batch prediction and single image inference
-
-🗂️ Project Structure
-dog-cat-ml/
-├── main_script.py # Main training and prediction script
-├── README.md # Project documentation
-├── requirements.txt # Dependencies
-├── /train/train/ # Training images (Kaggle-style: cat.123.jpg, dog.456.jpg)
-├── /test-dog-cat/ # Test images for batch prediction
-
 # 📂Download Dataset
 - **Data Source**: https://www.kaggle.com/c/dogs-vs-cats/data
 
@@ -39,6 +25,30 @@ Images must be named like dog.123.jpg, cat.456.jpg.
 The repository supports both sample test images and an optional full test dataset to evaluate model predictions.
 
 - **Dataset** : https://www.kaggle.com/datasets/arunimabarua/test-dog-cat/settings
+
+- 
+# 🧠 Key Features
+
+✅ Multi-technique feature extraction:
+• HOG (Histogram of Oriented Gradients) 
+• LBP (Local Binary Pattern)    
+• Gabor filters (frequency & orientation analysis)   
+• Color features (RGB, HSV, LAB statistics)
+
+✅ PCA for dimensionality reduction (retains 95% variance)
+✅ GridSearchCV hyperparameter tuning for both SVM and RF
+✅ Ensemble Learning using soft voting
+✅ Confusion matrix & classification reports
+✅ Batch prediction and single image inference
+
+🗂️ Project Structure
+dog-cat-ml/
+├── main_script.py # Main training and prediction script
+├── README.md # Project documentation
+├── requirements.txt # Dependencies
+├── /train/train/ # Training images (Kaggle-style: cat.123.jpg, dog.456.jpg)
+├── /test-dog-cat/ # Test images for batch prediction
+
 
 # ➤ What it does:
 Loads and preprocesses images.
