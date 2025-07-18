@@ -26,7 +26,7 @@ The repository supports both sample test images and an optional full test datase
 
 - **Dataset** : https://www.kaggle.com/datasets/arunimabarua/test-dog-cat/settings
 
-- 
+ 
 # 🧠 Key Features
 
 ✅ Multi-technique feature extraction:
