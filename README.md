@@ -30,16 +30,16 @@ The repository supports both sample test images and an optional full test datase
 # 🧠 Key Features
 
 ✅ Multi-technique feature extraction:
-• HOG (Histogram of Oriented Gradients) 
-• LBP (Local Binary Pattern)    
-• Gabor filters (frequency & orientation analysis)   
-• Color features (RGB, HSV, LAB statistics)
+- • HOG (Histogram of Oriented Gradients) 
+- • LBP (Local Binary Pattern)    
+- • Gabor filters (frequency & orientation analysis)   
+- • Color features (RGB, HSV, LAB statistics)
 
-✅ PCA for dimensionality reduction (retains 95% variance)
-✅ GridSearchCV hyperparameter tuning for both SVM and RF
-✅ Ensemble Learning using soft voting
-✅ Confusion matrix & classification reports
-✅ Batch prediction and single image inference
+-✅ PCA for dimensionality reduction (retains 95% variance)
+-✅ GridSearchCV hyperparameter tuning for both SVM and RF
+-✅ Ensemble Learning using soft voting
+-✅ Confusion matrix & classification reports
+-✅ Batch prediction and single image inference
 
 🗂️ Project Structure
 dog-cat-ml/
