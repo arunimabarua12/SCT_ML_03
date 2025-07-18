@@ -29,6 +29,7 @@ dog-cat-ml/
 
 # Download Dataset
 Data Source: https://www.kaggle.com/c/dogs-vs-cats/data
+
 Place the Kaggle Dogs vs Cats dataset inside:
 /train/train/
 
