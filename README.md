@@ -46,6 +46,7 @@ The repository supports both sample test images and an optional full test datase
 ✅ Batch prediction and single image inference
 
 🗂️ Project Structure
+
 dog-cat-ml/
 ├── main_script.py # Main training and prediction script
 ├── README.md # Project documentation
